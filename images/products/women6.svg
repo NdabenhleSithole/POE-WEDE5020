@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700">
+<rect width="600" height="700" rx="24" fill="#b9f0d0"/>
+<circle cx="470" cy="115" r="85" fill="#ffffff" opacity=".45"/>
+<circle cx="105" cy="600" r="120" fill="#ffffff" opacity=".28"/>
+<path d="M210 220 L300 170 L390 220 L430 530 L170 530 Z" fill="#286b49" opacity=".92"/>
+<path d="M230 225 L300 300 L370 225 L350 180 L300 235 L250 180 Z" fill="#fff" opacity=".88"/>
+<path d="M250 180 Q300 125 350 180" fill="none" stroke="#286b49" stroke-width="18" stroke-linecap="round"/>
+<path d="M215 250 L145 335" stroke="#286b49" stroke-width="42" stroke-linecap="round"/>
+<path d="M385 250 L455 335" stroke="#286b49" stroke-width="42" stroke-linecap="round"/>
+<rect x="120" y="555" width="360" height="70" rx="35" fill="#fff" opacity=".85"/>
+<text x="300" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#286b49">STREET</text>
+<text x="300" y="665" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#286b49">Streetwear Look</text>
+</svg>

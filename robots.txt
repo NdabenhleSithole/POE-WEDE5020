@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Add your deployed domain to sitemap.xml after publishing.

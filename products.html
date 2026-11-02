@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse women’s, men’s and kids’ fashion and accessories in this SHEIN South Africa website project. Search and filter product categories.">
+    <title>SHEIN South Africa | Browse Products</title>
+    <meta name="theme-color" content="#111111">
+    <meta property="og:title" content="SHEIN South Africa | Browse Products">
+    <meta property="og:description" content="Browse women’s, men’s and kids’ fashion and accessories in this SHEIN South Africa website project. Search and filter product categories.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div>
+        <a href="index.html" aria-label="SHEIN South Africa home">
+            <img src="images/branding/shein-logo.svg" alt="SHEIN logo">
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="page-hero">
+        <div>
+            <p class="eyebrow">FASHION • LIFESTYLE • SOUTH AFRICA</p>
+            <h1>Products</h1>
+            <p>Explore fashion, accessories and lifestyle styles.</p>
+        </div>
+    </section>
+
+
+    <section class="category-section">
+        <div>
+            <div class="section-heading">
+                <h2>Shop by Category</h2>
+                <p>Choose a category to view matching products.</p>
+            </div>
+
+            <div class="category-grid">
+                <a href="#women" class="category-card" data-category-link="Women">
+                    <img loading="lazy" decoding="async" src="images/categories/women.svg" alt="Women's clothing category">
+                    <h3>Women</h3>
+                </a>
+                <a href="#men" class="category-card" data-category-link="Men">
+                    <img loading="lazy" decoding="async" src="images/categories/men.svg" alt="Men's clothing category">
+                    <h3>Men</h3>
+                </a>
+                <a href="#kids" class="category-card" data-category-link="Kids">
+                    <img loading="lazy" decoding="async" src="images/categories/kids.svg" alt="Kids' clothing category">
+                    <h3>Kids</h3>
+                </a>
+                <a href="#accessories" class="category-card" data-category-link="Accessories">
+                    <img loading="lazy" decoding="async" src="images/categories/accessories.svg" alt="Accessories category">
+                    <h3>Accessories</h3>
+                </a>
+            </div>
+
+            <div class="product-tools">
+                <label class="search-label" for="product-search">Search products</label>
+                <input type="search" id="product-search" placeholder="Search clothing or accessories..." autocomplete="off">
+                <p id="product-count" class="result-count" aria-live="polite">Showing all products</p>
+            </div>
+            <div class="filter-row" aria-label="Product categories">
+                <button type="button" class="filter-button active" data-filter="All">All</button>
+                <button type="button" class="filter-button" data-filter="Women">Women</button>
+                <button type="button" class="filter-button" data-filter="Men">Men</button>
+                <button type="button" class="filter-button" data-filter="Kids">Kids</button>
+                <button type="button" class="filter-button" data-filter="Accessories">Accessories</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="products-list">
+        <div>
+            <div class="product-grid" id="product-grid">
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women1.svg" alt="Women&#x27;s Fashion Set">
+                    <div>
+                        <h3>Women&#x27;s Fashion Set</h3>
+                        <p>Women</p>
+                        <p>R499</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women2.svg" alt="Women&#x27;s Dress">
+                    <div>
+                        <h3>Women&#x27;s Dress</h3>
+                        <p>Women</p>
+                        <p>R399</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women3.svg" alt="Blue Collection">
+                    <div>
+                        <h3>Blue Collection</h3>
+                        <p>Women</p>
+                        <p>R529</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women4.svg" alt="Casual Style">
+                    <div>
+                        <h3>Casual Style</h3>
+                        <p>Women</p>
+                        <p>R449</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women5.svg" alt="Summer Outfit">
+                    <div>
+                        <h3>Summer Outfit</h3>
+                        <p>Women</p>
+                        <p>R479</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Women">
+                    <img loading="lazy" decoding="async" src="images/products/women6.svg" alt="Streetwear Look">
+                    <div>
+                        <h3>Streetwear Look</h3>
+                        <p>Women</p>
+                        <p>R559</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens1.svg" alt="Men&#x27;s Knitwear">
+                    <div>
+                        <h3>Men&#x27;s Knitwear</h3>
+                        <p>Men</p>
+                        <p>R459</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens2.svg" alt="Smart Casual">
+                    <div>
+                        <h3>Smart Casual</h3>
+                        <p>Men</p>
+                        <p>R599</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens3.svg" alt="Blazer Look">
+                    <div>
+                        <h3>Blazer Look</h3>
+                        <p>Men</p>
+                        <p>R799</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens4.svg" alt="Formal Style">
+                    <div>
+                        <h3>Formal Style</h3>
+                        <p>Men</p>
+                        <p>R549</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens5.svg" alt="Everyday Fit">
+                    <div>
+                        <h3>Everyday Fit</h3>
+                        <p>Men</p>
+                        <p>R519</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Men">
+                    <img loading="lazy" decoding="async" src="images/products/mens6.svg" alt="Urban Style">
+                    <div>
+                        <h3>Urban Style</h3>
+                        <p>Men</p>
+                        <p>R519</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Kids">
+                    <img loading="lazy" decoding="async" src="images/products/kids1.svg" alt="Girls&#x27; Occasion Dress">
+                    <div>
+                        <h3>Girls&#x27; Occasion Dress</h3>
+                        <p>Kids</p>
+                        <p>R299</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Kids">
+                    <img loading="lazy" decoding="async" src="images/products/kids2.svg" alt="Boys&#x27; Smart Casual">
+                    <div>
+                        <h3>Boys&#x27; Smart Casual</h3>
+                        <p>Kids</p>
+                        <p>R399</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Kids">
+                    <img loading="lazy" decoding="async" src="images/products/kids3.svg" alt="Girls&#x27; Casual Dress">
+                    <div>
+                        <h3>Girls&#x27; Casual Dress</h3>
+                        <p>Kids</p>
+                        <p>R329</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Kids">
+                    <img loading="lazy" decoding="async" src="images/products/kids4.svg" alt="Kids&#x27; Summer Set">
+                    <div>
+                        <h3>Kids&#x27; Summer Set</h3>
+                        <p>Kids</p>
+                        <p>R349</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Accessories">
+                    <img loading="lazy" decoding="async" src="images/products/acc1.svg" alt="Shoes &amp; Accessories">
+                    <div>
+                        <h3>Shoes &amp; Accessories</h3>
+                        <p>Accessories</p>
+                        <p>R349</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Accessories">
+                    <img loading="lazy" decoding="async" src="images/products/acc2.svg" alt="Fashion Accessories">
+                    <div>
+                        <h3>Fashion Accessories</h3>
+                        <p>Accessories</p>
+                        <p>R249</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Accessories">
+                    <img loading="lazy" decoding="async" src="images/products/acc3.svg" alt="Bags &amp; Watches">
+                    <div>
+                        <h3>Bags &amp; Watches</h3>
+                        <p>Accessories</p>
+                        <p>R379</p>
+                    </div>
+                </article>
+                <article class="product-card" data-category="Accessories">
+                    <img loading="lazy" decoding="async" src="images/products/acc4.svg" alt="Jewellery">
+                    <div>
+                        <h3>Jewellery</h3>
+                        <p>Accessories</p>
+                        <p>R279</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <div>
+            <div>
+                <h3>SHEIN South Africa</h3>
+                <p>A student-developed website project based on the SHEIN South Africa retail organisation.</p>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Website</h3>
+                <ul>
+                    <li><a href="https://m.shein.com/za/" target="_blank" rel="noopener">Official SHEIN South Africa</a></li>
+                    <li><a href="contact.html">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2026 SHEIN South Africa Website Project.</p>
+    </div>
+</footer>
+
+<dialog id="image-lightbox" class="image-lightbox" aria-label="Product image preview">
+    <button type="button" class="lightbox-close" aria-label="Close image preview">×</button>
+    <img src="" alt="">
+    <p></p>
+</dialog>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

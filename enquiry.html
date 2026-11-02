@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit a product category enquiry for this SHEIN South Africa website project. Form validation helps check your details.">
+    <title>SHEIN South Africa | Product Enquiry</title>
+    <meta name="theme-color" content="#111111">
+    <meta property="og:title" content="SHEIN South Africa | Product Enquiry">
+    <meta property="og:description" content="Submit a product category enquiry for this SHEIN South Africa website project. Form validation helps check your details.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div>
+        <a href="index.html" aria-label="SHEIN South Africa home">
+            <img src="images/branding/shein-logo.svg" alt="SHEIN logo">
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about.html" class="">About Us</a></li>
+                <li><a href="products.html" class="">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html" class="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div>
+            <h1>Product Enquiry</h1>
+            <p>Send us an enquiry about a product or service.</p>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div>
+            <form id="enquiry-form" class="site-form" novalidate>
+                <div>
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" minlength="2" maxlength="70" autocomplete="name" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" autocomplete="email" maxlength="120" required>
+                </div>
+
+                <div>
+                    <label for="category">Product Category *</label>
+                    <select id="category" name="category" required>
+                        <option value="">Select a category</option>
+                        <option value="women">Women</option>
+                        <option value="men">Men</option>
+                        <option value="kids">Kids</option>
+                        <option value="beauty">Beauty</option>
+                        <option value="accessories">Accessories</option>
+                        <option value="home">Home & Living</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="message">Your Enquiry *</label>
+                    <textarea id="message" name="message" placeholder="Enter your enquiry (10–1000 characters)..." minlength="10" maxlength="1000" required></textarea>
+                </div>
+
+                <button type="submit">Check Enquiry</button>
+                <p class="form-feedback" id="enquiry-feedback" aria-live="polite" role="status"></p>
+            </form>
+        </div>
+    </section>
+    <section class="faq-section">
+        <div>
+            <h2>Enquiry FAQs</h2>
+            <details><summary>Are the prices on this website official?</summary><p>No. Product prices are illustrative examples for this student project, not live SHEIN prices.</p></details>
+            <details><summary>Does this form place an order?</summary><p>No. It checks your enquiry and displays a suggested next step. It does not place orders or access live stock.</p></details>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <div>
+            <div>
+                <h3>SHEIN South Africa</h3>
+                <p>A student-developed website project based on the SHEIN South Africa retail organisation.</p>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Website</h3>
+                <ul>
+                    <li><a href="https://m.shein.com/za/" target="_blank" rel="noopener">Official SHEIN South Africa</a></li>
+                    <li><a href="contact.html">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; <span class="copyright-year">2026</span> SHEIN South Africa Website Project. Student demonstration only.</p>
+    </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>

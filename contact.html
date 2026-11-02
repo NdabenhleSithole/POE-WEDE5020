@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact information and a general message form for this SHEIN South Africa website project.">
+    <title>SHEIN South Africa | Contact</title>
+    <meta name="theme-color" content="#111111">
+    <meta property="og:title" content="SHEIN South Africa | Contact">
+    <meta property="og:description" content="Contact information and a general message form for this SHEIN South Africa website project.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div>
+        <a href="index.html" aria-label="SHEIN South Africa home">
+            <img src="images/branding/shein-logo.svg" alt="SHEIN logo">
+        </a>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about.html" class="">About Us</a></li>
+                <li><a href="products.html" class="">Products</a></li>
+                <li><a href="enquiry.html" class="">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section>
+        <div>
+            <h1>Contact</h1>
+            <p>Find support and contact information.</p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <h2>Customer Support</h2>
+                <p>For official orders, returns, delivery and account assistance, use SHEIN's official support channels.</p>
+            </div>
+
+
+            <section class="contact-form-section">
+                <h2>Send a General Message</h2>
+                <p>Complete the form. Your default email app will open with the message prepared for you to review and send.</p>
+                <form id="contact-form" class="site-form" novalidate>
+                    <div><label for="contact-name">Full Name *</label><input type="text" id="contact-name" name="name" minlength="2" maxlength="70" autocomplete="name" required></div>
+                    <div><label for="contact-email">Email Address *</label><input type="email" id="contact-email" name="email" maxlength="120" autocomplete="email" required></div>
+                    <div><label for="contact-type">Message Type *</label><select id="contact-type" name="type" required><option value="">Choose a message type</option><option>General question</option><option>Website feedback</option><option>Technical issue</option><option>Other</option></select></div>
+                    <div><label for="contact-message">Message *</label><textarea id="contact-message" name="message" minlength="10" maxlength="1500" placeholder="Write your message (10–1500 characters)..." required></textarea></div>
+                    <button type="submit">Prepare Email</button>
+                    <p class="form-feedback" id="contact-feedback" aria-live="polite" role="status"></p>
+                </form>
+            </section>
+            <div>
+                <article>
+                    <div>
+                        <h3>Online Support</h3>
+                        <p>Visit the official SHEIN South Africa website for customer-service information and online assistance.</p>
+                        <br>
+                        <a href="https://m.shein.com/za/" target="_blank" rel="noopener">Visit SHEIN</a>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h3>Orders & Returns</h3>
+                        <p>Use SHEIN's official customer-service tools for order tracking, returns, refunds and delivery queries.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <div>
+                        <h3>General Enquiries</h3>
+                        <p>For this website project, use the Enquiry page to submit a product or service enquiry.</p>
+                        <br>
+                        <a href="enquiry.html">Make an Enquiry</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div>
+        <div>
+            <div>
+                <h3>SHEIN South Africa</h3>
+                <p>A student-developed website project based on the SHEIN South Africa retail organisation.</p>
+            </div>
+            <div>
+                <h3>Pages</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="enquiry.html">Enquiry</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Website</h3>
+                <ul>
+                    <li><a href="https://m.shein.com/za/" target="_blank" rel="noopener">Official SHEIN South Africa</a></li>
+                    <li><a href="contact.html">Customer Support</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; <span class="copyright-year">2026</span> SHEIN South Africa Website Project. Student demonstration only.</p>
+    </div>
+</footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
